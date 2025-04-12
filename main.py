@@ -1,15 +1,4 @@
-import turtle
+n = int(input())
 
-t = turtle.Turtle()
-t.shape('turtle')
-
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(100)
-t.right(90)
-
-turtle.done()
+for i in range(1, n+1):
+    print(i)
