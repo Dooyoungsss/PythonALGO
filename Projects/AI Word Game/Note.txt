@@ -1,0 +1,14 @@
+AI 단어 학습게임
+기획(목표)
+--기능
+  ---단어퀴즈: 한글단어가 나오면 영어단어 입력(정답/오답)
+  ---난이도설정: Easy / Normal / Hard (Dictionary)
+  ---오답 저장: 틀린단어 저장 --> 복습모드 지원
+  ---추천 기능: 자주 틀리는 유형 기반으로 단어 추천
+
+ 파일구조(directory)
+ AI Word Game
+  - main.py           # 실행 파일
+  - word_data.py      # 단어/난이도 데이터
+  - logic.py          # 문제 출제, 채점, 오답 저장
+  - ui.py             # tkinter UI 구성
